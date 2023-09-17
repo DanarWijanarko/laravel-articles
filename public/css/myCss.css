@@ -1,0 +1,64 @@
+/**
+ *  Categories Section
+ */
+
+.categories .images {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+.categories img {
+    object-fit: cover;
+    transition: 150ms linear;
+}
+.categories:hover img {
+    transform: scale(1.1);
+}
+
+/**
+ *  Register Section
+ */
+
+.cascading-right {
+    margin-right: -50px;
+}
+.cascading-left {
+    margin-left: -200px;
+    margin-right: 200px;
+}
+.my-feedback {
+    margin-bottom: -20px;
+    font-size: 13.5px;
+}
+@media (max-width: 991.98px) {
+    .cascading-right {
+        margin-right: 0;
+    }
+    .cascading-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.img-profile {
+    width: 50px;
+}
+
+trix-toolbar [data-trix-button-group="file-tools"] {
+    display: none;
+}
+
+.img-uploaded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.img-uploaded-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    overflow: hidden;
+}
